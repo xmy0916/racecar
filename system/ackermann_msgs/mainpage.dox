@@ -1,0 +1,9 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+Messages for driving a vehicle using Ackermann steering.
+
+There are no nodes, scripts or other APIs in this package.
+
+*/

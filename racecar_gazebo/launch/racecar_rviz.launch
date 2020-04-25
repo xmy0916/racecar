@@ -1,0 +1,6 @@
+<launch>
+    <!-- 启动rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find racecar_gazebo)/config/racecar_rviz.rviz"/>
+
+</launch>
+

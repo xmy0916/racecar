@@ -1,0 +1,37 @@
+<package>
+  <name>hokuyo_node</name>
+  <version>1.7.8</version>
+  <description>A ROS node to provide access to SCIP 2.0-compliant Hokuyo laser range finders (including 04LX).</description>
+  <maintainer email="chadrockey@gmail.com">Chad Rockey</maintainer>
+
+  <license>LGPL</license>
+
+  <url type="website">http://www.ros.org/wiki/hokuyo_node</url>
+  <url type="bugtracker">https://github.com/ros-drivers/hokuyo_node/issues</url>
+  <url type="repository">https://github.com/ros-drivers/hokuyo_node</url>
+
+  <author>Brian P. Gerkey</author>
+  <author>Jeremy Leibs</author>
+  <author>Blaise Gassend</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rosconsole</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>driver_base</build_depend>
+  <build_depend>self_test</build_depend>
+  <build_depend>diagnostic_updater</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>log4cxx</build_depend>
+
+  <run_depend>rosconsole</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>driver_base</run_depend>
+  <run_depend>self_test</run_depend>
+  <run_depend>diagnostic_updater</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>log4cxx</run_depend>
+
+</package>

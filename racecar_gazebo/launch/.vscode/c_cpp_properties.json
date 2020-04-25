@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/tony-yaoyao/f110_ws/devel/include/**",
+                "/home/tony-yaoyao/uw-mushr-ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/tony-yaoyao/f110_ws/src/f110-fall2018-skeletons/system/racecar/ackermann_cmd_mux/include/**",
+                "/home/tony-yaoyao/uw-mushr-ws/src/mushr/mushr_hardware/realsense/realsense2_camera/include/**",
+                "/home/tony-yaoyao/f110_ws/src/f110-fall2018-skeletons/system/serial/include/**",
+                "/home/tony-yaoyao/f110_ws/src/teb_local_planner/include/**",
+                "/home/tony-yaoyao/f110_ws/src/f110-fall2018-skeletons/system/vesc/vesc_ackermann/include/**",
+                "/home/tony-yaoyao/f110_ws/src/f110-fall2018-skeletons/system/vesc/vesc_driver/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

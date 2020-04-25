@@ -1,0 +1,7 @@
+<launch>
+  <!-- Useful launch file for testing if SIGHUP is triggered when a device
+  is unplugged. -->
+
+  <machine name="localhost" address="localhost" ros-root="$(env ROS_ROOT)" ros-package-path="$(env ROS_PACKAGE_PATH)" default="true" /> 
+  <node machine="localhost" name="hokuyo_node" pkg="hokuyo_node" type="hokuyo_node" />
+</launch>

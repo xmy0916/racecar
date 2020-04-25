@@ -1,0 +1,6 @@
+
+laser_node:
+  device: /dev/sensors/hokuyo
+
+imu_node:
+  device: /dev/imu

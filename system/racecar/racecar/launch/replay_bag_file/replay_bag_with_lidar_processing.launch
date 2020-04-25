@@ -1,0 +1,36 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <!-- launch script arguments -->
+  <arg name="bag"/>
+  <arg name="rate" default="1.0"/>
+
+  <include file="$(find racecar)/launch/replay_bag_file/replay_bag_file.launch">
+    <arg name="bag" value="$(arg bag)" />
+    <arg name="rate" value="$(arg rate)" />
+  </include>
+
+  <include file="$(find racecar)/launch/includes/racecar-v1/static_transforms.launch.xml" />
+
+  <node pkg="laser_scan_matcher" type="laser_scan_matcher_node" 
+        name="laser_scan_matcher_node" output="screen">
+
+    <remap from="imu/data" to="imu" />
+    <param name="use_imu" value="false" />
+    <param name="use_odom" value="false" />
+    <param name="use_vel" value="false" />
+    <param name="kf_dist_linear" value="0" />
+    <param name="kf_dist_angular" value="0" />
+  </node>
+<!--
+  <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf" output="screen">
+    <remap from="imu_data" to="imu" />
+    <param name="odom_used" value="false" />
+    <param name="imu_used" value="true" />
+    <param name="vo_used" value="false" />
+    <param name="gps_used" value="false" />
+  </node>
+-->
+  <node pkg="rviz" type="rviz" name="rviz" 
+        args="-d $(find racecar)/rviz/laser_scan_matcher.rviz" />
+
+</launch>

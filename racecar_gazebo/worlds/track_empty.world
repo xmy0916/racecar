@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+<world name="track_empty">
+  <gui>
+    <camera name="camera">
+      <pose>-0.68 3.10 22.24 0 1.57 0</pose>
+    </camera>
+  </gui>
+  
+  <scene>
+    <ambient>0.5 0.5 0.5 1.0</ambient>
+    <shadows>0</shadows>
+  </scene>
+
+  <include>
+    <uri>model://sun</uri>
+    <pose>0.0 0.0 15.0 0 0 0</pose>
+    <cast_shadows>false</cast_shadows>
+    <attenuation>
+      <constant>0.5</constant>
+      <linear>0.01</linear>
+      <quadratic>0.0</quadratic>
+      <range>100</range>
+    </attenuation>
+  </include>
+
+  <light type="point" name="Light 1">
+              <pose>0 0 15 0 0 0</pose>
+              <diffuse>.9 .9 .9 1</diffuse>
+              <specular>.1 .1 .1 1</specular>
+              <attenuation>
+              <constant>0.5</constant>
+              <linear>0.01</linear>
+              <quadratic>0.0</quadratic>
+              <range>50</range>
+              </attenuation>
+              <direction>0 0 -1</direction>
+              <cast_shadows>false</cast_shadows>
+          </light>
+
+  <model name="ground_plane">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>150 150</size>
+          </plane>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1000</mu>
+              <mu2>1000</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>150 150</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+  
+</world>
+</sdf>

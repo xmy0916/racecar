@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launch the racecar -->
+  <include file="$(find racecar_gazebo)/launch/racecar.launch">
+    <arg name="world_name" value="racecar_runway"/>
+  </include>
+</launch>
