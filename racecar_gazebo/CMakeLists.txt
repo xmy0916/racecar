@@ -4,8 +4,14 @@ project(racecar_gazebo)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+set(OpenCV_DIR /opt/ros/kinetic/share/OpenCV-3.3.1-dev/)
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros
+  geometry_msgs
+  OpenCV
+  roscpp
+  cv_bridge
+  image_transport
 )
 
 ## System dependencies are found with CMake's conventions
@@ -113,6 +119,7 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -126,16 +133,19 @@ include_directories(
 # add_dependencies(racecar_gazebo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(racecar_gazebo_node src/racecar_gazebo_node.cpp)
+add_executable(findLine src/findLine.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(racecar_gazebo_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(racecar_gazebo_node
-#   ${catkin_LIBRARIES}
-# )
+ target_link_libraries(findLine
+   ${catkin_LIBRARIES}
+   ${OpenCV_LiBRARIES}
+ )
+
+ add_dependencies(findLine findLine_tutorials_generate_messages_cpp)
 
 #############
 ## Install ##
