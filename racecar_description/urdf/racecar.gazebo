@@ -58,7 +58,7 @@
 </gazebo>
 
   <!-- hokuyo -->
-<xacro:unless value="$(optenv DISABLE_GAZEBO_LASER true)">
+<xacro:unless value="$(optenv DISABLE_GAZEBO_LASER false)">
   <gazebo reference="laser">
     <material>Gazebo/Grey</material>
     <sensor type="ray" name="hokuyo_sensor">
