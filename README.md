@@ -4,8 +4,8 @@
 
 ## 报错controllers相关
 ```bash
-sudo apt-get install ros-kinetic-joint-state-controllers
-sudo apt-get install ros-kinetic-joint-effort-controllers
+sudo apt-get install ros-kinetic-effort-controllers
+sudo apt-get install ros-kinetic-joint-state-controller
 ```
 
 ## 报错driver_base相关
