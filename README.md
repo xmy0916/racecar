@@ -11,7 +11,7 @@ sudo apt-get install ros-kinetic-joint-state-controller
 
 ## 报错driver_base相关
 ```bash
-sudo apt-get install ros-kinetic-joint-driver-base
+sudo apt-get install ros-kinetic-driver-base
 ```
 
 ## 报错ackermann_msgs相关

@@ -19,13 +19,14 @@ class Follower:
   def image_callback(self, msg):
     image = self.bridge.imgmsg_to_cv2(msg,desired_encoding='bgr8')
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-    lower_yellow = numpy.array([ 0,  0, 180])
+    lower_yellow = numpy.array([ 0,  0, 100])
     upper_yellow = numpy.array([180, 30, 255])
     mask = cv2.inRange(hsv, lower_yellow, upper_yellow)
-    cv2.imshow("window", image)
+    #cv2.imshow("window2", mask)
+    #cv2.imshow("window", image)
     h, w, d = image.shape
-    search_top = h/2 + 10
-    search_bot = h
+    search_top = h/2 + 50
+    search_bot = h - 20
     mask[0:search_top, 0:w] = 0
     mask[search_bot:h, 0:w] = 0
     M = cv2.moments(mask)
