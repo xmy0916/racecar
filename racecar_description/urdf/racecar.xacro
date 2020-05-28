@@ -228,7 +228,7 @@
   </link>
 
   <joint name="zed_camera_joint" type="fixed">
-    <origin xyz="0.390 0 0" rpy="0 0 0"/>
+    <origin xyz="0.390 0 0.2" rpy="0 0 0"/>
     <parent link="chassis"/>
     <child link="zed_camera_link"/>
     <axis xyz="0 0 1" />
