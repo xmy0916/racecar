@@ -4,6 +4,7 @@
 
 ## 报错controllers相关
 ```bash
+sudo apt-get install ros-kinetic-controller-manager
 sudo apt-get install ros-kinetic-gazebo-ros-control
 sudo apt-get install ros-kinetic-effort-controllers
 sudo apt-get install ros-kinetic-joint-state-controller
