@@ -6,9 +6,9 @@
 #include "geometry_msgs/Twist.h"
 #include "ackermann_msgs/AckermannDrive.h"
 #include "ackermann_msgs/AckermannDriveStamped.h"
-#include <opencv-3.3.1-dev/opencv2/core.hpp>
-#include <opencv-3.3.1-dev/opencv/highgui.h>
-#include <opencv-3.3.1-dev/opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv/highgui.h>
+#include <opencv2/opencv.hpp>
 #include "cv_bridge/cv_bridge.h"
 #include <sensor_msgs/image_encodings.h>
 #include <sensor_msgs/Imu.h>
