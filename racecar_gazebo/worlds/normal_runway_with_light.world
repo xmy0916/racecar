@@ -171,24 +171,6 @@
       </link>
       <pose frame=''>8.16909 -6.49213 0 0 -0 0</pose>
     </model>
-    <light name='user_spot_light_0' type='spot'>
-      <pose frame=''>8.00668 -6.70669 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <direction>0 0 -1</direction>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <spot>
-        <inner_angle>0.6</inner_angle>
-        <outer_angle>1</outer_angle>
-        <falloff>1</falloff>
-      </spot>
-    </light>
     <light name='user_directional_light_0' type='directional'>
       <pose frame=''>4.92036 -3.60888 1 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
@@ -241,19 +223,6 @@
       </attenuation>
       <cast_shadows>1</cast_shadows>
     </light>
-    <light name='user_point_light_0' type='point'>
-      <pose frame=''>7.79038 -6.79321 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
     <model name='red_light'>
       <static>1</static>
       <link name='link'>
@@ -300,37 +269,6 @@
       </link>
       <pose frame=''>5.64729 7.57296 0 0 -0 0</pose>
     </model>
-    <light name='user_spot_light_1' type='spot'>
-      <pose frame=''>5.83989 7.54989 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <direction>0 0 -1</direction>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <spot>
-        <inner_angle>0.6</inner_angle>
-        <outer_angle>1</outer_angle>
-        <falloff>1</falloff>
-      </spot>
-    </light>
-    <light name='user_point_light_1' type='point'>
-      <pose frame=''>5.88725 7.22363 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
     <model name='red_light_0'>
       <static>1</static>
       <link name='link'>
@@ -377,37 +315,6 @@
       </link>
       <pose frame=''>-6.34473 -4.47058 0 0 -0 0</pose>
     </model>
-    <light name='user_point_light_2' type='point'>
-      <pose frame=''>-6.39087 -3.7817 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
-    <light name='user_spot_light_2' type='spot'>
-      <pose frame=''>-6.36721 -4.26768 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <direction>0 0 -1</direction>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <spot>
-        <inner_angle>0.6</inner_angle>
-        <outer_angle>1</outer_angle>
-        <falloff>1</falloff>
-      </spot>
-    </light>
     <model name='green_light_0'>
       <static>1</static>
       <link name='link'>
@@ -454,57 +361,26 @@
       </link>
       <pose frame=''>-7.20014 5.83407 0 0 -0 0</pose>
     </model>
-    <light name='user_point_light_3' type='point'>
-      <pose frame=''>-7.27383 6.0389 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
-    <light name='user_spot_light_3' type='spot'>
-      <pose frame=''>-7.82558 6.04969 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <direction>0 0 -1</direction>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <spot>
-        <inner_angle>0.6</inner_angle>
-        <outer_angle>1</outer_angle>
-        <falloff>1</falloff>
-      </spot>
-    </light>
     <state world_name='default'>
-      <sim_time>364 157000000</sim_time>
-      <real_time>366 873981319</real_time>
-      <wall_time>1592205841 559728825</wall_time>
-      <iterations>364157</iterations>
+      <sim_time>1155 348000000</sim_time>
+      <real_time>78 998611489</real_time>
+      <wall_time>1592584378 639839458</wall_time>
+      <iterations>78475</iterations>
       <model name='green_light'>
-        <pose frame=''>8.33851 -6.7127 0.220725 0 0 -1.54055</pose>
+        <pose frame=''>5.31269 -6.6707 0.505897 -5e-06 1.55915 -1.54055</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>8.33851 -6.7127 0.220725 0 0 -1.54055</pose>
+          <pose frame=''>5.31269 -6.6707 0.505897 -5e-06 1.55915 -1.54055</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='green_light_0'>
-        <pose frame=''>-8.0472 6.00676 0.224774 0 0 -1.54775</pose>
+        <pose frame=''>-0.647699 3.07002 0.501053 -3.14159 -1.56065 0.056413</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-8.0472 6.00676 0.224774 0 0 -1.54775</pose>
+          <pose frame=''>-0.647699 3.07002 0.501053 -3.14159 -1.56065 0.056413</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -531,20 +407,20 @@
         </link>
       </model>
       <model name='red_light'>
-        <pose frame=''>5.84128 7.67402 0.198133 0 -0 0</pose>
+        <pose frame=''>2.61628 -0.278958 0.505529 0 1.55613 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>5.84128 7.67402 0.198133 0 -0 0</pose>
+          <pose frame=''>2.61628 -0.278958 0.505529 0 1.55613 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='red_light_0'>
-        <pose frame=''>-6.34473 -4.47058 0.232374 0 -0 0</pose>
+        <pose frame=''>-6.36662 -1.32194 0.508057 0 1.55131 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-6.34473 -4.47058 0.232374 0 -0 0</pose>
+          <pose frame=''>-6.36662 -1.32194 0.508057 0 1.55131 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -566,36 +442,140 @@
         <pose frame=''>-4.39862 -3.95569 1 0 -0 0</pose>
       </light>
       <light name='user_point_light_0'>
-        <pose frame=''>7.79038 -6.79321 1 0 -0 0</pose>
+        <pose frame=''>-0.588578 2.0947 1 0 -0 0</pose>
       </light>
       <light name='user_point_light_1'>
-        <pose frame=''>5.88725 7.22363 1 0 -0 0</pose>
+        <pose frame=''>2.60945 -1.41836 1 0 -0 0</pose>
       </light>
       <light name='user_point_light_2'>
-        <pose frame=''>-6.39087 -3.7817 1 0 -0 0</pose>
+        <pose frame=''>-6.32932 -0.848684 1 0 -0 0</pose>
       </light>
       <light name='user_point_light_3'>
-        <pose frame=''>-7.27383 6.0389 1 0 -0 0</pose>
+        <pose frame=''>4.64332 -6.71266 1 0 -0 0</pose>
       </light>
-      <light name='user_spot_light_0'>
-        <pose frame=''>7.69419 -6.70669 0.755287 0 -0.664355 0</pose>
+      <light name='user_point_light_4'>
+        <pose frame=''>-0.680439 4.0042 1 0 -0 0</pose>
       </light>
-      <light name='user_spot_light_1'>
-        <pose frame=''>5.83989 7.54989 1 0 -0 0</pose>
+      <light name='user_point_light_5'>
+        <pose frame=''>2.58107 0.694213 1 0 -0 0</pose>
       </light>
-      <light name='user_spot_light_2'>
-        <pose frame=''>-6.36721 -4.26768 1 0 -0 0</pose>
+      <light name='user_point_light_6'>
+        <pose frame=''>6.26898 -6.65092 1 0 -0 0</pose>
       </light>
-      <light name='user_spot_light_3'>
-        <pose frame=''>-7.82558 6.04969 1 0 -0 0</pose>
+      <light name='user_point_light_7'>
+        <pose frame=''>-6.46138 -2.63774 1 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>40.2431 3.50843 21.1932 0 0.265797 -2.92781</pose>
+        <pose frame=''>-10.5021 -19.76 4.95831 0 0.045797 1.24339</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <light name='user_point_light_0' type='point'>
+      <pose frame=''>-0.588578 2.0947 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_1' type='point'>
+      <pose frame=''>2.60945 -1.41836 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_2' type='point'>
+      <pose frame=''>-6.32932 -0.848684 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_3' type='point'>
+      <pose frame=''>4.64332 -6.71266 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_4' type='point'>
+      <pose frame=''>-0.680439 4.58953 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_5' type='point'>
+      <pose frame=''>2.58107 0.694213 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_6' type='point'>
+      <pose frame=''>6.26898 -6.65092 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_7' type='point'>
+      <pose frame=''>-6.46138 -2.63774 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
   </world>
 </sdf>
