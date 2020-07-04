@@ -15,6 +15,11 @@ sudo apt-get install ros-kinetic-joint-state-controller
 sudo apt-get install ros-kinetic-driver-base
 ```
 
+## 报错rtabmap相关
+```bash
+sudo apt-get install ros-kinetic-rtabmap-ros
+```
+
 ## 报错ackermann_msgs相关
 
 ```bash
