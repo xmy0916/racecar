@@ -1,5 +1,5 @@
 # 智能车仿真
-代码使用参考教程：[教程地址](https://www.guyuehome.com/category/column/%E6%99%BA%E8%83%BD%E8%BD%A6%E7%AB%9E%E8%B5%9B)
+代码使用参考教程：[教程地址](https://www.guyuehome.com/6463)
 # bug汇总
 
 ## 报错controllers相关
